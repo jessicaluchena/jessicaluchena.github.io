@@ -1,0 +1,43 @@
+/*
+* MIXITUP Boilerplate Template Stylesheet
+*/
+
+
+/* ------ BOILERPLATE TEMPLATE ------ */
+
+
+.controls li{
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.controls li.active{
+  font-weight: 700;
+}
+
+#Grid{
+  font-size: 0.1px;
+}
+
+#Grid li img{
+  width: 190px;
+}
+
+#Grid:after{
+  content: '';
+  display: inline-block;
+}
+
+#Grid .mix{
+  display: none;
+  opacity: 0;
+  vertical-align: top;
+  margin: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#Grid .gap{
+  display: inline-block;
+  width: 200px;
+}

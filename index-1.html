@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Jessica Luchena Portfolio" content="Jessica Luchena Portfolio">
+
+    <title>Jessica Luchena Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/mixitup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Introduction -->
+    <header class="header">
+        <h4>¡Hola Mundo!</h4>
+        <h2>Soy Jessica Luchena, <span style="color:#f05454;"><br/>Diseñadora Gráfica y Web.</span></h2>
+        <p>
+            Te invito a quedarte a ver una muestra de mis trabajos realizados.
+        </p>
+        <i class="fa fa-chevron-down"></i>
+    </header>
+
+    <!-- Sticky Navbar -->
+    <nav>
+        <ul id="myHeader" class="navGrid">
+            <li class="item-logo"><p>{Jessica Luchena}<br/>Diseñadora Gráfica y Web</p></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li class="item-contacto"><a href="#about">Sobre Mí</a></li>
+            <!--<li>Side Projects</li>-->
+        </ul>
+    </nav>
+
+    <!-- Start Portfolio -->
+    <section id="portfolio">
+
+        <h2>Portfolio</h2>
+        <div class="container" id="grid-container">
+
+            <!-- Grid Filter -->
+            <div id="grid-filter">
+                <button id="btn-all" class="grid_btn active">Todo</button>
+                <button id="btn-branding" data-show=".btn-branding" class="btn grid_btn">Branding</button>
+                <button id="btn-editorial" data-show=".btn-editorial" class="btn grid_btn">Editorial y Publicitario</button>
+                <button id="btn-web" data-show=".btn-web" class="btn grid_btn">Web y Móvil</button>            
+            </div>
+  
+        <div class="">
+            <div class="grid-wrapper">
+
+                <!-- Start Project: Yo nunca -->
+                <div class="grid-item btn-all btn-branding">
+                    <a href="#portfolioModalYoNunca" class="portfolio-link" data-toggle="modal">
+                        <img src="images/gridYoNunca.png" class="img_grid" />
+                    </a>
+
+                    <div class="text_grid">
+                        <p>Imagen Corporativa | Packaging</p>
+                        <a href="#portfolioModalYoNunca" class="portfolio-link" data-toggle="modal">
+                            <h4>Yo nunca</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Yo nunca -->
+
+                <!-- Start Project: Cruz Roja -->
+                <div class="grid-item btn-all btn-packaging btn-web">
+                    <a href="#portfolioModalCruzRoja" class="portfolio-link" data-toggle="modal">
+                        <img src="images/gridCruzRoja.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Web</p>
+                        <a href="#portfolioModalCruzRoja" class="portfolio-link" data-toggle="modal">
+                            <h4>Cruz Roja Alicante</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Cruz Roja -->
+
+                <!-- Start Project: Oppcion -->
+                <div class="grid-item grid-item-1 btn-all btn-editorial btn-web">
+                    <a href="#portfolioModalOppcion" class="portfolio-link" data-toggle="modal">
+                        <img src="images/gridOppcion.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Publicitario | Web</p>
+                        <a href="#portfolioModalOppcion" class="portfolio-link" data-toggle="modal">
+                            <h4>Oppcion</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Oppcion -->
+
+                <!-- Start Project: La Traca -->
+                <div class="grid-item grid-item-1 btn-all btn-editorial">
+                    <a href="#portfolioModalLaTraca" class="portfolio-link" data-toggle="modal">
+                    <img src="images/gridTraca.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Editorial</p>
+                        <a href="#portfolioModalLaTraca" class="portfolio-link" data-toggle="modal">
+                            <h4>La Traca</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: La Traca -->
+
+                <!-- Start Project: Logo Miscelánea -->
+                <div class="grid-item grid-item-1 btn-all btn-branding">
+                    <a href="#portfolioModalLogoMiscelanea" class="portfolio-link" data-toggle="modal">
+                        <img id="logoslider" src="images/logoGif.gif" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Imagen Corporativa</p>
+                        <a href="#portfolioModalLogoMiscelanea" class="portfolio-link" data-toggle="modal">
+                            <h4>Desarrollo de Marcas</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Óptica Molina -->
+
+                <!-- Start Project: MYPA -->
+                <div class="grid-item grid-item-1 btn-all btn-branding btn-web">
+                    <a href="#portfolioModalMypa" class="portfolio-link" data-toggle="modal">
+                    <img src="images/gridMypa.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Imagen Corporativa | Móvil</p>
+                        <a href="#">
+                            <h4>MYPA</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: MYPA -->
+
+                <!-- Start Project: Promivia
+                <div class="grid-item grid-item-1 btn-all btn-branding">
+                    <a href="#portfolioModalPromivia" class="portfolio-link" data-toggle="modal">
+                    <img src="https://via.placeholder.com/350X200/black/808080?Text=Digital.comC/O https://placeholder.com/" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Imagen Corporativa</p>
+                        <a href="#portfolioModalPromivia" class="portfolio-link" data-toggle="modal">
+                            <h4>Promivia</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Promivia -->
+
+                <!-- Start Project: Divergum
+                <div class="grid-item grid-item-1 btn-all btn-packaging">
+                    <a href="#portfolioModalDivergum" class="portfolio-link" data-toggle="modal">
+                    <img src="https://via.placeholder.com/350X200/black/808080?Text=Digital.comC/O https://placeholder.com/" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Packaging</p>
+                        <a href="#portfolioModalDivergum" class="portfolio-link" data-toggle="modal">
+                            <h4>Divergum</h4>                
+                        </a>
+                    </div>
+                </div>
+                End Project: Divergum -->
+
+                <!-- Start Project: Nubes Acústicas -->
+                <div class="grid-item grid-item-1 btn-all btn-branding btn-editorial btn-web">
+                    <a href="#portfolioModalNubesAcusticas" class="portfolio-link" data-toggle="modal">
+                    <img src="images/gridNubesAcusticas.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Imagen Corporativa | Publicitario | Web</p>
+                        <a href="#portfolioModalNubesAcusticas" class="portfolio-link" data-toggle="modal">
+                            <h4>Nubes Acústicas</h4>   
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Nubes Acústicas -->
+
+                <!-- Start Project: Feria de Abril -->
+                <div class="grid-item grid-item-1 btn-all btn-editorial">
+                    <a href="#portfolioModalFeriaAbril" class="portfolio-link" data-toggle="modal">
+                    <img src="images/gridFeriaAbril.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Publicitario</p>
+                        <a href="#portfolioModalFeriaAbril" class="portfolio-link" data-toggle="modal">
+                            <h4>Feria de Abril</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Feria de Abril -->
+
+                <!-- Start Project: Momentáneas -->
+                <div class="grid-item grid-item-1 btn-all btn-branding btn-web">
+                    <a href="#portfolioModalMomentaneas" class="portfolio-link" data-toggle="modal">
+                    <img src="images/gridMomentaneas.png" class="img_grid" />
+                    </a>
+                    <div class="text_grid">
+                        <p>Imagen Corporativa | Móvil</p>
+                        <a href="#portfolioModalMomentaneas" class="portfolio-link" data-toggle="modal">
+                            <h4>Momentáneas</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Project: Momentáneas -->
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí - CV Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sobre mí</h2>
+                    <h3 class="section-subheading text-muted">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                            <g>
+                    <path style="fill:#4D4D4D;" d="M3.59,9.602h0.251c0.682,0,1.294,0.261,1.838,0.781c0.544,0.52,0.816,1.168,0.816,1.946
+                    c0,0.764-0.272,1.395-0.816,1.892c-0.544,0.495-1.216,0.744-2.018,0.744c-0.873,0-1.599-0.35-2.179-1.049
+                    c-0.58-0.699-0.87-1.694-0.87-2.986c0-1.184,0.253-2.292,0.762-3.327c0.509-1.034,1.13-1.853,1.866-2.457
+                    C3.975,4.542,4.63,4.239,5.204,4.239c0.383,0,0.682,0.114,0.896,0.341C6.316,4.807,6.424,5.1,6.424,5.459
+                    c0,0.526-0.233,0.915-0.7,1.166C5.09,6.972,4.588,7.378,4.218,7.844C3.847,8.31,3.638,8.896,3.59,9.602z M11.517,9.602h0.233
+                    c0.669,0,1.274,0.261,1.82,0.781c0.545,0.52,0.816,1.168,0.816,1.946c0,0.753-0.271,1.386-0.816,1.899
+                    C13.024,14.742,12.354,15,11.552,15c-0.884,0-1.613-0.359-2.186-1.076c-0.574-0.718-0.863-1.716-0.863-2.995
+                    c0-0.921,0.15-1.788,0.45-2.601c0.299-0.813,0.683-1.521,1.156-2.125c0.471-0.603,0.98-1.082,1.523-1.435
+                    c0.546-0.353,1.03-0.529,1.461-0.529c0.396,0,0.698,0.111,0.907,0.332c0.209,0.222,0.314,0.518,0.314,0.888
+                    c0,0.538-0.233,0.927-0.701,1.166c-0.657,0.371-1.153,0.781-1.487,1.229C11.792,8.301,11.588,8.884,11.517,9.602z"/>
+                    </g>
+                </svg>
+                        Hello world! Me llamo Jessica Luchena y soy <strong>DISEÑADORA GRÁFICA, CREATIVA Y PUBLICITARIA</strong>. Siempre he tenido inquietud por lo artístico, y desde un tiempo hasta hoy, me he interesado por la comunicación y, sobre todo, su unión con el diseño como forma de expresión. A lo largo de mi experiencia, he ido recopilando proyectos que reflejan mi manera de trabajar. Soy detallista, perfeccionista y exigente conmigo misma, ya que en cada proyecto doy lo mejor de mí, para que surja el resultado deseado. En estos momentos, me he envuelto en proyectos referentes al <strong>DISEÑO WEB</strong> y, siempre, estoy aprendiendo cosas nuevas.
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="15px" height="15px" viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                <g>
+                    <path style="fill:#4D4D4D;" d="M11.41,9.638h-0.251c-0.682,0-1.294-0.261-1.838-0.781c-0.545-0.52-0.816-1.168-0.816-1.946
+                        c0-0.764,0.271-1.395,0.816-1.892c0.544-0.495,1.216-0.744,2.018-0.744c0.872,0,1.599,0.35,2.179,1.049s0.869,1.694,0.869,2.986
+                        c0,1.184-0.253,2.292-0.762,3.327c-0.509,1.034-1.13,1.852-1.865,2.457C11.025,14.697,10.37,15,9.796,15
+                        c-0.383,0-0.682-0.114-0.896-0.342c-0.215-0.227-0.323-0.52-0.323-0.878c0-0.526,0.233-0.915,0.7-1.166
+                        c0.634-0.347,1.136-0.753,1.506-1.219C11.153,10.929,11.362,10.343,11.41,9.638z M3.483,9.638H3.25
+                        c-0.669,0-1.274-0.261-1.82-0.781c-0.545-0.52-0.816-1.168-0.816-1.946c0-0.753,0.271-1.386,0.816-1.899
+                        c0.546-0.515,1.217-0.772,2.019-0.772c0.884,0,1.613,0.359,2.186,1.076C6.208,6.033,6.497,7.031,6.497,8.31
+                        c0,0.921-0.15,1.788-0.45,2.601c-0.299,0.813-0.683,1.521-1.156,2.125c-0.471,0.603-0.98,1.081-1.523,1.435
+                        C2.821,14.823,2.337,15,1.906,15c-0.396,0-0.698-0.111-0.907-0.332C0.79,14.446,0.685,14.15,0.685,13.78
+                        c0-0.538,0.233-0.927,0.701-1.166c0.657-0.37,1.153-0.78,1.487-1.228C3.208,10.938,3.412,10.355,3.483,9.638z"/>
+                </g>
+            </svg>
+                    </h3>
+                    <h3 class="section-subheading text-muted">
+                    	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                            <g>
+		                    <path style="fill:#4D4D4D;" d="M3.59,9.602h0.251c0.682,0,1.294,0.261,1.838,0.781c0.544,0.52,0.816,1.168,0.816,1.946
+		                    c0,0.764-0.272,1.395-0.816,1.892c-0.544,0.495-1.216,0.744-2.018,0.744c-0.873,0-1.599-0.35-2.179-1.049
+		                    c-0.58-0.699-0.87-1.694-0.87-2.986c0-1.184,0.253-2.292,0.762-3.327c0.509-1.034,1.13-1.853,1.866-2.457
+		                    C3.975,4.542,4.63,4.239,5.204,4.239c0.383,0,0.682,0.114,0.896,0.341C6.316,4.807,6.424,5.1,6.424,5.459
+		                    c0,0.526-0.233,0.915-0.7,1.166C5.09,6.972,4.588,7.378,4.218,7.844C3.847,8.31,3.638,8.896,3.59,9.602z M11.517,9.602h0.233
+		                    c0.669,0,1.274,0.261,1.82,0.781c0.545,0.52,0.816,1.168,0.816,1.946c0,0.753-0.271,1.386-0.816,1.899
+		                    C13.024,14.742,12.354,15,11.552,15c-0.884,0-1.613-0.359-2.186-1.076c-0.574-0.718-0.863-1.716-0.863-2.995
+		                    c0-0.921,0.15-1.788,0.45-2.601c0.299-0.813,0.683-1.521,1.156-2.125c0.471-0.603,0.98-1.082,1.523-1.435
+		                    c0.546-0.353,1.03-0.529,1.461-0.529c0.396,0,0.698,0.111,0.907,0.332c0.209,0.222,0.314,0.518,0.314,0.888
+		                    c0,0.538-0.233,0.927-0.701,1.166c-0.657,0.371-1.153,0.781-1.487,1.229C11.792,8.301,11.588,8.884,11.517,9.602z"/>
+		                    </g>
+		                </svg>	
+                    	La inspiración existe, pero tiene que encontrarte trabajando.
+                    	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="15px" height="15px" viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                			<g>
+			                    <path style="fill:#4D4D4D;" d="M11.41,9.638h-0.251c-0.682,0-1.294-0.261-1.838-0.781c-0.545-0.52-0.816-1.168-0.816-1.946
+			                        c0-0.764,0.271-1.395,0.816-1.892c0.544-0.495,1.216-0.744,2.018-0.744c0.872,0,1.599,0.35,2.179,1.049s0.869,1.694,0.869,2.986
+			                        c0,1.184-0.253,2.292-0.762,3.327c-0.509,1.034-1.13,1.852-1.865,2.457C11.025,14.697,10.37,15,9.796,15
+			                        c-0.383,0-0.682-0.114-0.896-0.342c-0.215-0.227-0.323-0.52-0.323-0.878c0-0.526,0.233-0.915,0.7-1.166
+			                        c0.634-0.347,1.136-0.753,1.506-1.219C11.153,10.929,11.362,10.343,11.41,9.638z M3.483,9.638H3.25
+			                        c-0.669,0-1.274-0.261-1.82-0.781c-0.545-0.52-0.816-1.168-0.816-1.946c0-0.753,0.271-1.386,0.816-1.899
+			                        c0.546-0.515,1.217-0.772,2.019-0.772c0.884,0,1.613,0.359,2.186,1.076C6.208,6.033,6.497,7.031,6.497,8.31
+			                        c0,0.921-0.15,1.788-0.45,2.601c-0.299,0.813-0.683,1.521-1.156,2.125c-0.471,0.603-0.98,1.081-1.523,1.435
+			                        C2.821,14.823,2.337,15,1.906,15c-0.396,0-0.698-0.111-0.907-0.332C0.79,14.446,0.685,14.15,0.685,13.78
+			                        c0-0.538,0.233-0.927,0.701-1.166c0.657-0.37,1.153-0.78,1.487-1.228C3.208,10.938,3.412,10.355,3.483,9.638z"/>
+			                </g>
+			            </svg>
+						<i>Pablo Picasso.</i>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Experiencia Profesional</h3>
+                </div>
+            </div>
+
+            </br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+
+                    	<!-- GT -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/b2b.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Feb. 2019 - Oct. 2020</h4>
+                                    <h4 class="subheading">Diseñadora Gráfica y Web</h4>
+                                    <h6>en Trixder J&S S.L. (alimentación y accesorios de mascotas)</h6>
+                                </div>
+                                <div class="timeline-body text-muted text-right">
+                                        <p>Maquetación de catálogos y promociones.</p>
+                                        <p>Creatividades para formato online y offline.</p>
+                                        <p>Diseño de PLV.</p>
+                                        <p>Clasificación y tratamiento de imágenes.</p>
+                                        <p>Preimpresión y preparación de Artes Finales.</p>
+                                        <p>Creación de páginas Web en Wordpress y Landing Pages en HTML y CSS.</p>
+                                        <p>E-mail Marketing con Connectif.</p>
+                                        <p>Vídeo Tutoriales.</p>
+										<p>Fotografía de producto.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    	<!-- Oppcion -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/nubesacusticas.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Abr. 2018 - Nov. 2018</h4>
+                                    <h4 class="subheading">Diseñadora Gráfica y Web</h4>
+                                    <h6>en Oppcion Técnica y Desarrollo S.L. (acústica, obras y reformas)</h6>
+                                </div>
+                                <div class="timeline-body text-muted">
+                                        <p>Creación de material gráfico online y offline según soporte.</p>
+                                        <p>Creación, Gestión y Mantenimiento de diversas páginas con Wordpress.</p>
+                                        <p>Branding y adaptaciones.</p>
+                                        <p>Actualización y depuración de BBDD para email marketing.</p>
+                                        <p>Gestión de Redes Sociales.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    	<!-- Cloud Telecom -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/cloud.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Oct. 2017 - Mar. 2018</h4>
+                                    <h4 class="subheading">RESPONSABLE del Departamento de Marketing</h4>
+                                    <h6>en CloudWifi SL. (operadora telecomunicaciones)</h6>
+                                </div>
+                                <div class="timeline-body text-muted text-right">
+                                        <p>Creación y adaptación de material gráfico online y offline según soporte.</p>
+                                        <p>Búsqueda y elección de proveedores.</p>
+                                        <p>Mantenimiento web con Wordpress.</p>
+                                        <p>Gestión de Redes Sociales.</p>
+                                        <p>E-mail Marketing.</p>
+                                        <p>Atención al cliente personalizada.</p>
+                                        <p>Branding y adaptaciones.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Lunel Cosmetics SL-->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/lunel.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Mar. 2017 - Jul. 2017</h4>
+                                    <h4 class="subheading">Asistenta de Exportación y Diseñadora Gráfica</h4>
+                                    <h6>en Lunel Cosmetics S.L. (cosmética capilar para profesionales)</h6>
+                                </div>
+                                <div class="timeline-body text-muted">
+                                        <p>Atención al cliente personalizada tanto nacional como internacional.</p>
+                                        <p>Coordinación de la carga y transporte de los productos con el transitario.</p>
+                                        <p>Preparación de los documentos necesarios para la exportación de los productos (BL, Factura, Packing-list, Certificado de origen).</p>
+                                        <p>Creación de material gráfico online y offline según soporte.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Grupo Farmacéutico-->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/xeo.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Abr. 2014 - Feb. 2017</h4>
+                                    <h4 class="subheading">RESPONSABLE del Departamento de Marketing</h4>
+                                    <h6>en Xeosefa SL. (industria farmacéutica)</h6>
+                                </div>
+                                <div class="timeline-body text-muted text-right">
+                                        <p>Creación, Gestión y Mantenimiento de diversas páginas con Wordpress y Prestashop.</p>
+                                        <p>Actualización y depuración de BBDD para email marketing.</p>
+                                        <p>Gestión de Redes Sociales.</p>
+                                        <p>Creación y optimización de campañas SEM/SEO.</p>
+                                        <p>Elaboración de informes de ventas de las promociones mensuales.</p>
+                                        <p>Creación de material gráfico en diferentes formatos para cualquier requisito online y offline.</>
+                                        <p>Realización de fotografía de producto, junto con su respectivo retoque.</p>
+                                        <p>Branding y adaptaciones.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Hoguera Polígono San Blas -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/feriasgrill.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">DISEÑADORA Gráfica</h4>
+                                    <h6>en Hoguera Polígono San Blas</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Realización de carteles promocionales de las diferentes fiestas celebradas.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Óptica Molina -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/opticagrill.png" alt="Proyecto Óptica Molina Jessica Luchena">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Febr. 2014</h4>
+                                    <h4 class="subheading">DISEÑADORA Gráfica</h4>
+                                    <h6>en Óptica Molina</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted text-right">Creación e Ideación de Imagen Corporativa.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Promivia -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/promiviagrill.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Nov. 2013 - Mar. 2014</h4>
+                                    <h4 class="subheading">DISEÑADORA gráfica y web</h4>
+                                    <h6>en Promivia S.L. (start-up informática)</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Realización de cualquier producto gráfico requerido por el departamento tecnológico, así como también, apoyo al diseño web en varios proyectos</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Federación de Barracas -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/tracagrill.png" alt="Proyecto Óptica Molina Jessica Luchena">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Nov. 2013 - Dic. 2015</h4>
+                                    <h4 class="subheading">DISEÑADORA Editorial</h4>
+                                    <h6>en Federacion de Barracas de Alicante.</h6>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted text-right">Diseño y Maquetación de la Revista La Traca.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Sala Hermanos -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/sala.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May. 2012</h4>
+                                    <h4 class="subheading">Becaria</h4>
+                                    <h6>en Sala Hermanos S.A.</h6>
+                                </div>
+                                <div class="timeline-body text-muted">
+                                    <p>Control de pruebas dinámicas dentro del departamento de calidad.</p>
+                                    <p>Control de las facturas del Plan de Marketing</p>
+                                    <p>Desarrollo de encuestas de atención al cliente por vía telefónica</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Sé parte
+                                    <br>de mi
+                                    <br>Historia!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="services" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Servicios</h2>
+                    <h3 class="section-subheading text-muted">A lo largo de mi trayectoria personal y profesional me he ido formando en varias disciplinas dentro de la comunicación. Mi especialidad es adaptarme a las necesidades y estar en contínua renovación.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce y Blogs</h4>
+                    <p class="text-muted">Durante 3 años, he desarrollado varias e-commerce y blogs a través de las plataformas CMS, Prestashop y Wordpress. <strong>Creando, gestionando y manteniendo </strong>webs del sector farmacéutico y moda.</p>
+                    <p class="text-muted">Además, también me he encargado de la creación y redacción de contenidos.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Diseño Gráfico y Web</h4>
+                    <p class="text-muted">Mi larga experiencia como diseñadora gráfica, me ha hecho tocar varias materias. <strong>Branding, Señalética, Packaging, Publicidad, editorial...</strong> además de aprovechar esos conocimientos para desarrollarme en áreas del diseño web. <strong>Creación de Landing pages, mails, banners...</strong> en definitiva cualquier necesidad gráfica relacionada con el entorno web. Claro ejemplo, la creación de esta página web.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Marketing Online</h4>
+                    <p class="text-muted">Para el mantenimiento y promoción de las diversas ecommerce que he ido gestionando, me he involucrado en la <strong>creación de anuncios con Facebook Ads y Google Adwords.</strong></p>
+                    <p class="text-muted">Gestionando Redes Sociales como <strong>Instagram, Twitter, Facebook, Pinterest</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Jessica Luchena Dengra 2020</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/JessicaLuchena"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/jessicaluchena"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--<div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Promivia Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModalPromivia" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Promivia</h2>
+                            <p class="item-intro text-muted">Start up tecnológica</p>
+                            <img class="img-responsive img-centered" src="images/promiviaproject.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>PROMIVIA, una empresa de base tecnológica, que apuesta por el desarrollo de ideas, asesoramiento y consultoría.</p>
+                            <p>Su principal promesa es el trato con el cliente, mano a mano, con el fin de que las ideas prosperen como negocio. De este modo, se ha optado por reflejarlo mediante personificación de la "M", añadiéndole los puntos de las íes a las astas, para así mostrar de manera simbólica, el acto de darse la mano como principio y final de transacción empresarial.</p>
+                            <p>El color principal es el gris, dado que un tono neutro permite que destaquen las ideas, más visuales, de esta empresa y sus clientes.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Papelería</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Imágenes adaptadas</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/promivialogoproject.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <hr>
+                                <p>COLORES</p>
+                                <div class="col-md-4 col-md-offset-4"><img class="img-responsive" src="images/promiviacolor.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <hr>
+                                <div class="col-md-1">
+                                    FUENTE
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-responsive" src="images/promiviatipo.png" />
+                                </div>
+                                <div class="col-md-2">
+                                    MINILOGO
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="images/promiviasimbolo.png" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <hr>
+                                <p>TARJETAS</p>
+                                <div class="col-md-12">
+                                    <a href="images/promiviatarjetas.png" target="_blank"><img class="img-responsive" src="images/promiviatarjetas.png" /></a>
+                                </div>
+                            </div>
+
+                            <ul class="list-inline">
+                                <li>Fecha: Noviembre 2013</li>
+                                <li>Cliente: Promivia S.L.</li>
+                                <li>Categoría: Branding y papelería</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yo Nunca Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModalYoNunca" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Yo nunca</h2>
+                            <p class="item-intro text-muted">Sexy Store</p>
+                            <img class="img-responsive img-centered" src="images/yonuncaproject.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>Yo nunca es una tienda erótica basada en el concepto Sexy Store (tienda del placer). Su principal objetivo es plasmar este concepto en su imagen gráfica, derivada a ideas y sensaciones como: armonía, diversión, agradable, simpatía, sencillez, naturalidad, curiosidad, claridad, inocencia, sensualidad y dulzura. Además, no debe resultar vulgar o grosera para el cliente.</p>
+                            <p>El nombre de marca escogido, yo nunca, es en el que recae el peso de la conceptualización, así como también, hace referencia al juego, conocido popularmente por el público joven llamado con el mismo nombre, y que consiste, principalmente, en descubrir los asuntos personales de las personas.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Packaging</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Señalética</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/yonuncalogoproject.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <hr>
+                                <p>COLORES</p>
+                                <div class="col-md-4 col-md-offset-4"><img class="img-responsive" src="images/yonuncacolor.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <hr>
+                                <div class="col-md-1">
+                                    FUENTE
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-responsive" src="images/yonuncatipo.png" />
+                                </div>
+                                <div class="col-md-2">
+                                    MINILOGO
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="images/yonuncasimbolo.png" />
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <hr>
+                                <p>TARJETAS</p>
+                                <div class="col-md-12">
+                                    <a href="images/promiviatarjetas.png" target="_blank"><img class="img-responsive" src="images/yonuncatarjetas.png" /></a>
+                                </div>
+                            </div>
+
+                            <ul class="list-inline">
+                                <li>Fecha: Abril 2010</li>
+                                <li>Cliente: Yo nunca</li>
+                                <li>Categoría: Branding, Packaging y Señalética</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+    <!-- Divergum Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModalDivergum" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Divergum</h2>
+                            <p class="item-intro text-muted">Envase para chicles</p>
+                            <img class="img-responsive img-centered" src="images/chicleproject.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>El proyecto está desarrollado para un público infantil con el objetivo de crear un envase para chicles que facilite la extracción del producto de uno en uno.</p>
+                            <p>El diseño de este envase tiene como funciones contener, transportar y entretener. Para ello, los materiales usados son el cartoncillo y goma elástica, pensados para que se coloquen dos dedos y utilizar el envase de marioneta, tanto para el juego como para el transporte.</p>
+                            <p>Su apariencia simula un dinosaurio de color azul, bastante llamativo para el público al que se dirige.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Packaging</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/chicletecnico.png" /></div>
+                            </div>
+
+                            <ul class="list-inline">
+                                <li>Cliente: Divergum</li>
+                                <li>Categoría: Packaging</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- La Traca Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModalLaTraca" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>La Traca</h2>
+                            <p class="item-intro text-muted">Revista de la Federación de Barracas.</p>
+                            <img class="img-responsive img-centered" src="images/tracaproject.jpg" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>"La Traca" es una revista quatrimestral y gratuita dedicada al mundo de las hogueras y las barracas de Alicante.</p>
+                            <p>La maquetación general es una composición a dos columnas con imágenes adaptadas al tamaño disponible.</p>
+                            <p>En este número de Noviembre de 2013, se han recopilado las barracas de mayor importancia como muestra de lo que fueron las pasadas Hogueras. Para ello, se ha empleado una gama de colores rojos para destacar la importancia de las categorías. Una composición muy visual con el elemento del banderín en representación a los premios de las fiestas.</p>
+                            <p>Además, se ha diseñado un logo representativo de la revista, que aparece en la cabecera de la portada.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Editorial</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/tracalogo.png" /></div>
+                            </div>
+
+                            <div class="t">
+                                <div class="tc rel">
+                                    <div class="book" id="book">
+                                        <div class="page"><img src="images/traca0.jpg" alt="Portada La Traca" /></div>
+                                        <div class="page"><img src="images/traca1.jpg" alt="Artículo La Traca" /></div>
+                                        <div class="page"><img src="images/traca2.jpg" alt="Editorial La Traca" /></div>
+                                        <div class="page"><img src="images/traca3.jpg" alt="Barraca ganadora La Traca" /></div>
+                                        <div class="page"><img src="images/traca4.jpg" alt="Barraca La Traca" /></div>
+                                        <div class="page"><img src="images/traca5.jpg" alt="Barraca La Traca" /></div>
+                                        <div class="page"><img src="images/traca6.jpg" alt="Barraca La Traca" /></div>
+                                        <div class="page"><img src="images/traca7.jpg" alt="Barraca La Traca" /></div>
+                                        <div class="page"><img src="images/traca8.jpg" alt="Barraca La Traca" /></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="list-inline">
+                                <li>Fecha: 2 Ediciones en 2013 y 2015</li>
+                                <li>Cliente: La Traca</li>
+                                <li>Categoría: Editorial y Branding</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feria de Abril Portfolio -->
+    <div class="portfolio-modal modal fade" id="portfolioModalFeriaAbril" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Feria de Abril</h2>
+                            <p class="item-intro text-muted">Hoguera Polígono San Blas</p>
+                            <img class="img-responsive img-centered" src="images/cartelesproject.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>Con motivo del inicio de la Feria de Abril de Sevilla, la Hoguera Polígono de San Blas de Alicante celebra de manera local su propia feria. En ella se recogen un conjunto de casetas y atracciones que se instalan en el barrio de San Blas.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Cartelería</li>
+                            </ul>
+                            <p>1ª Edición - 2013</p>
+                            <p>Para su representación, se escogió la unión de iconos sevillanos y alicantinos, la figura flamenca junto con la representación de la Explanada. Manteniendo la forma de la falda para aquella información destacada que se quisiera mostrar.</p>
+                            <p>2ª Edición - 2014</p>
+                            <p>Para la representación del cartel de este año, se escogió el simbólico monumento de la ciudad de Alicante, la plaza de Los Luceros. De este modo, se ha integrado en el monumento a una figura femenina con el tradicional traje de corto y el típico sombrero cordobés.</p>
+                            <p>3ª Edición - 2015</p>
+                            <p>En este cartel se unió la paella o arroz alicantino con elementos que recordarán a lo andaluz. Haciendo similes entre una cuchara de madera con una guitarra, almejas con unas castañuelas o un tomate por una rosa.</p>
+                            <p>4ª Edición - 2016</p>
+                            <p>En esta edición se recuperaron los elementos simbólicos de la 1ª edición, pero añadiéndole más detalles, como el castillo de Santa Bárbara en el fondo del cartel.</p>
+                            <img class="img-responsive img-centered" src="images/presentacion_cartel.jpg" alt="">
+                            <ul class="list-inline">
+                                <li>Fecha: 4 Ediciones - 2013-2016</li>
+                                <li>Cliente: Hoguera Polígono San Blas</li>
+                                <li>Categoría: Cartelería</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Óptica Molina Portfolio -->
+    <div class="portfolio-modal modal fade" id="portfolioModalOpticaMolina" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Óptica Molina</h2>
+                            <p class="item-intro text-muted">Especialistas en Salud Visual</p>
+                            <img class="img-responsive img-centered" src="images/opticaproject.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>Óptica Molina es una empresa ubicada en el centro de Alicante, especialistas en salud visual con más de 50 años de experiencia</p>
+                            <p>Este logo ha sido creado para plasmar: salud, servicio y calidad. Todo ello reflejado en un símbolo icónico en representación al sector óptico. Las formas circulares son las predominantes del diseño, en la misma tipografía se ha optado por unos acabados redondeados. En el símbolo, se puede observar como el iris del ojo forma las iniciales del nombre de la empresa "O" "M". En definitiva, un trabajo claro y legible para todo tipo de consumidor.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/opticalogoproject.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <hr>
+                                <p>COLORES</p>
+                                <div class="col-md-4 col-md-offset-4"><img class="img-responsive" src="images/opticacolor.png" /></div>
+                            </div>
+
+                            <div class="row">
+                                <br>
+                                <hr>
+                                <div class="col-md-1">
+                                    FUENTE
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-responsive" src="images/opticatipo.png" />
+                                </div>
+                                <div class="col-md-2">
+                                    MINILOGO
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="images/opticasimbolo.png" />
+                                </div>
+                            </div>
+
+                            <ul class="list-inline">
+                                <li>Fecha: Febrero 2014</li>
+                                <li>Cliente: Óptica Molina</li>
+                                <li>Categoría: Branding</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mypa Portfolio Modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModalMypa" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>mypa</h2>
+                            <p class="item-intro text-muted">Asistente personal de tareas</p>
+                            <img class="img-responsive img-centered" src="images/mypaproject.jpg" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>El logotipo se compone de dos partes:</p>
+                            <p>Un símbolo que representa las funcionalidades de la app. Simbolizando la gestión de correo, contactos, llamadas y calendario. Todo ello dentro de un círculo contenedor, sostenido por unas manos que lo engloban.</p>
+                            <p>Un texto que denomina el nombre de la app y su claim, cuyo uso es exclusivo para soportes que requieran de una explicación textual de la marca.</p>
+                            <p></p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> App</li>
+                            </ul>
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/mypalogoproject.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Iconos</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3"><img class="img-responsive" src="images/mypaiconproject.png" />
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li>Fecha: 2014</li>
+                                <li>Cliente: mypa</li>
+                                <li>Categoría: Branding y App</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cruz Roja Portfolio-->
+    <div class="portfolio-modal modal fade" id="portfolioModalCruzRoja" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Cruz Roja Alicante</h2>
+                            <p class="item-intro text-muted">Institución humanitaria, de carácter voluntario.</p>
+                            <img class="img-responsive img-centered" src="images/homecr.jpg" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>
+                            	Cruz Roja Alicante necesitaba una web dinámica con contenidos actualizados que se pudiera gestionar de manera fácil y sencilla por un técnico de Cruz Roja Alicante.
+                            </p>
+                            <p>
+                            	Además, quieren elaborar en profundidad un Crowdfunding, que consistirá en donativos monetarios o bienes muebles por parte de empresas o particulares, a través de las necesidades añadidas manualmente por técnicos de Cruz Roja Alicante.
+                            </p>
+                            <p>Objetivo principal a corto plazo: Unificar y recolectar toda la información que tiene Cruz Roja Alicante.</p>
+                            <p>Objetivo principal a largo plazo: Aumentar la contribución y voluntariado de las empresas hacía Cruz Roja Alicante.</p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Web</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Qué hacemos</p>
+                                    <img class="img-responsive" src="images/cr_quehacemos.png" />
+                                </div>
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Dónde estamos</p>
+                                    <img class="img-responsive" src="images/cr_dondeestamos.png" />
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li>Fecha: 2017</li>
+                                <li>Cliente: Cruz Roja Alicante</li>
+                                <li>Categoría: Web</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Oppcion Portfolio -->
+    <div class="portfolio-modal modal fade" id="portfolioModalOppcion" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Oppcion</h2>
+                            <p class="item-intro text-muted">Sector de la construcción.</p>
+                            <img class="img-responsive img-centered" src="images/op_home.jpg" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>
+                            	Oppcion es una empresa dedicada a la obra y acondicionamiento acústico. Al analizarla nos encontramos con que querían separar estos dos sectores en dos web diferenciadas. Para ello, se opta por crear un subdominio obra.oppcion.com dónde sólo se habla de lo referente a la construcción y proyectos.
+                            </p>
+                            <p>
+                            	En la web, se hace hincapié en el proceso constructivo dentro de los proyectos, con el objetivo de que el cliente final pueda ver la profesionalidad y el buen hacer de la empresa.
+                            </p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Web</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Servicios</p>
+                                    <img class="img-responsive" src="images/op_servicios.jpg" />
+                                </div>
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Contacto</p>
+                                    <img class="img-responsive" src="images/op_contacto.jpg" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Blog</p>
+                                    <img class="img-responsive" src="images/op_blog.jpg" />
+                                </div>
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Proyecto</p>
+                                    <img class="img-responsive" src="images/op_proyecto.jpg" />
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li>Fecha: 2018</li>
+                                <li>Cliente: Oppcion Técnica y Desarrollo</li>
+                                <li>Categoría: Web</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Momentáneas Modal-->
+    <div class="portfolio-modal modal fade" id="portfolioModalMomentaneas" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Momentáneas</h2>
+                            <p class="item-intro text-muted">App para imprimir fotos.</p>
+                            <img class="img-responsive img-centered" src="images/mo_header.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>
+                                Momentáneas con el objetivo de imprimir fotos de forma fácil e intuitiva desde tu dispositivo.
+                            </p>
+                            <p>
+                                Desde el naming hasta el logotipo, todo ha sido ideado para la captura del momento que quieres inmortalizar a través del papel.
+                                Empleando el símbolo del encuadre y un claim: "Imprime tus momentos."
+                            </p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> App</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <hr>
+                                    <p>App</p>
+                                    <img class="img-responsive" src="images/mo_app.png" />
+                                </div>
+                            </div>
+                            
+                            <ul class="list-inline">
+                                <li>Fecha: 2019</li>
+                                <li>Categoría: Branding y App</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nubes Acústicas Portfolio -->
+    <div class="portfolio-modal modal fade" id="portfolioModalNubesAcusticas" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Nubes Acústicas</h2>
+                            <p class="item-intro text-muted">Sector del acondicionamiento acústico.</p>
+                            <img class="img-responsive img-centered" src="images/na_home.png" alt="">
+                            <h3>Resumen del proyecto</h3>
+                            <p>
+                            	Nubes acústicas es una tienda online de productos de acondicionamiento acústico.
+                            	En este caso, al tratarse de un producto muy desconocido para el público en general y que ofrece muchos beneficios, la página está enfocada en enseñar las virtudes de este producto con descripciones muy detalladas y CTAs para información adicional y compra.
+                            	De este modo, a primera vista, la tienda no nos vende el producto, pretende dirigir al usuario a conocer el producto y más tarde si hay interés poder hacer la solicitud de compra.
+                            </p>
+                            <p>
+                            	Esta web, ha sido desarrollada a través del CMS de Wordpress y el plugin de Woocommerce para la tienda.
+                            </p>
+                            <ul style="list-style-type: none;">
+                                <li>Detalles del proyecto</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Branding</li>
+								<li><span class="rosa glyphicon glyphicon-ok-sign"></span> Editorial</li>
+                                <li><span class="rosa glyphicon glyphicon-ok-sign"></span> Web</li>
+                            </ul>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Producto</p>
+                                    <img class="img-responsive" src="images/na_producto.png" />
+                                </div>
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Descripción de Producto</p>
+                                    <img class="img-responsive" src="images/na_descripcion.png" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Tienda</p>
+                                    <img class="img-responsive" src="images/na_tienda.png" />
+                                </div>
+                                <div class="col-md-6">
+                                    <hr>
+                                    <p>Producto en Tienda</p>
+                                    <img class="img-responsive" src="images/na_productotienda.png" />
+                                </div>
+                            </div>
+                            <ul class="list-inline">
+                                <li>Fecha: 2018</li>
+                                <li>Cliente: Oppcion Técnica y Desarrollo</li>
+                                <li>Categoría: Branding, Editorial y Web</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar proyecto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.10.2.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+    <script src="js/grid.js"></script>
+
+
+</body>
+
+</html>
